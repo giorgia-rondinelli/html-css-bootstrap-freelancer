@@ -1,0 +1,16 @@
+.container{
+  background-color: darkkhaki;
+}
+
+header{
+  height: 80px;
+  background-color:coral;
+  position: fixed;
+  width: 100%;
+}
+[class^="col"]{
+  border: 1px solid black;
+}
+li{
+  list-style: none;
+}
