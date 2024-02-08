@@ -1,5 +1,9 @@
 .container{
   background-color: darkkhaki;
+  border: 1px solid black;
+}
+section{
+  background-color:darkorchid;
 }
 
 header{
@@ -13,4 +17,10 @@ header{
 }
 li{
   list-style: none;
+}
+
+
+.start{
+  padding-top: 80px;
+  height: 600px;
 }
