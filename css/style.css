@@ -26,9 +26,7 @@ li{
   height: 600px;
 }
 
-.portfolio{
-  height: 900px;
-}
+
 
 .h_250{
   height: 250px;
@@ -42,4 +40,13 @@ li{
 }
 .img-portfolio img{
   border-radius: 50%;
+}
+
+.about{
+  height: 450px;
+}
+
+.container_sc{
+  max-width:970px;
+  margin: 0 auto;
 }
