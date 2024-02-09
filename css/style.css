@@ -37,23 +37,13 @@ background-color:rgb(204,178,163) ;
 /* header  */
 
 .container{
-  
-  border: 1px solid black;
   padding: 20px;
-}
-section{
-  
-  border: 1px solid black;
 }
 
 header{
   height: 80px;
-  background-color:coral;
   position: fixed;
   width: 100%;
-}
-[class^="col"]{
-  border: 1px solid black;
 }
 
 .p_ham{
@@ -78,6 +68,20 @@ header{
   width: 100%;
   height: 100%;
 }
+.line-container{
+  width: 30%;
+}
+.line{
+  height: 2px;
+  width: 30%;
+  background-color: white;
+}
+.line-black{
+  height: 2px;
+  width: 30%;
+  background-color: black;
+
+}
 
 /* start  */
 
@@ -88,10 +92,7 @@ header{
 .img-portfolio{
   height: 250px;
   width: 250px;
-  margin: 0 auto;
- 
-  
- 
+  margin: 0 auto; 
 }
 .img-portfolio img{
   border-radius: 50%;
