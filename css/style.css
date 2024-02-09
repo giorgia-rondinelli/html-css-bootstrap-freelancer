@@ -1,9 +1,43 @@
+
+
+
+.bg-green{
+  background-color: rgb(26,188,156);
+}
+.bg-darkblue{
+  background-color: rgb(44,62,80);
+}
+.bg-blue{
+  background-color: rgb(58,84,109);
+}
+.bg-bordeaux{
+  background-color:rgb(186,75,99);
+
+}
+.bg-indaco{
+  background-color: rgb(30,164,182);
+}
+.bg-mediumblue{
+  background-color: rgb(28,131,193);
+}
+.bg-eletricblue{
+background-color: rgb(14,56,181);
+}
+.bg-lightbrown{
+background-color:rgb(204,178,163) ;
+}
+
+
+
+
+
 .container{
-  background-color: darkkhaki;
+  
   border: 1px solid black;
+  padding: 20px;
 }
 section{
-  background-color:darkorchid; 
+  
   border: 1px solid black;
 }
 
@@ -16,8 +50,13 @@ header{
 [class^="col"]{
   border: 1px solid black;
 }
+
+.p_ham{
+  padding: 3px 5px;
+
+}
 li{
-  list-style: none;
+  
 }
 
 
@@ -47,10 +86,11 @@ li{
 }
 
 .container_sc{
-  max-width:970px;
+ width: 70%;
   margin: 0 auto;
 }
 
 .contact-me{
   height: 700px;
 }
+
