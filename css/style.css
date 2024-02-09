@@ -29,7 +29,9 @@ background-color:rgb(204,178,163) ;
 .hov-green{
   background-color: rgba(26, 188, 156, 0.587);
 }
-
+.text-green{
+  color: rgb(26,188,156);
+}
 
 
 /* header  */
@@ -101,10 +103,7 @@ header{
 
 /* portfolio  */
 
-.about{
-  
-}
-
+/* about */
 a{
   text-decoration: none;
   border: 1px solid white;
@@ -114,8 +113,24 @@ a{
  width: 70%;
   margin: 0 auto;
 }
+/* about */
 
-.contact-me{
-  height: 700px;
+.col input, .col textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.col input:focus,
+.col textarea:focus{
+box-shadow: none;
+}
+
+/* footertop  */
+.social i{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  
+  
 }
 
