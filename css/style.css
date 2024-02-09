@@ -95,16 +95,21 @@ header{
   border-radius: 50%;
 }
 
-.aggiungi:hover +.add{
+.aggiungi:hover+.add{
   display: block;
 }
 
 /* portfolio  */
 
 .about{
-  height: 450px;
+  
 }
 
+a{
+  text-decoration: none;
+  border: 1px solid white;
+
+}
 .container_sc{
  width: 70%;
   margin: 0 auto;
