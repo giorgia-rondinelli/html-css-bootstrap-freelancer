@@ -26,6 +26,9 @@ background-color: rgb(14,56,181);
 .bg-lightbrown{
 background-color:rgb(204,178,163) ;
 }
+.hov-green{
+  background-color: rgba(26, 188, 156, 0.587);
+}
 
 
 
@@ -76,19 +79,27 @@ header{
 
 /* start  */
 
+/* portfolio  */
 .h_250{
   height: 250px;
 }
 .img-portfolio{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 0 auto;
+ 
   
  
 }
 .img-portfolio img{
   border-radius: 50%;
 }
+
+.aggiungi:hover +.add{
+  display: block;
+}
+
+/* portfolio  */
 
 .about{
   height: 450px;
